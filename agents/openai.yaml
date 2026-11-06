@@ -1,0 +1,11 @@
+interface:
+  display_name: "运输带货物智能检测"
+  short_description: "分析运输带视频中的货物尺寸、面单朝向与破损"
+  icon_small: "./assets/cover.png"
+  icon_large: "./assets/cover.png"
+  brand_color: "#13C7D9"
+  default_prompt: "使用 $inspect-conveyor-packages 分析我上传的运输带视频，逐件输出尺寸、面单朝向和破损情况。"
+
+policy:
+  allow_implicit_invocation: true
+
